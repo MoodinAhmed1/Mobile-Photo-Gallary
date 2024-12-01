@@ -57,17 +57,21 @@ position: relative;}
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0;
-	overflow-y: scroll;
-}
+	top: 0;}
 .photo-Gallery{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+	overflow-y: scroll;}
 .photo-Gallery .header{
-	text-align: center;
-}
+	text-align: center;}
 .gallery {
-	
-}
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 20px;
+	align-items: center;}
+.gallery img {
+	width: 95%;
+	height: 300px;
+	object-fit: cover;}
